@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 
 const priorities = ["Low", "Medium", "High"];
-const API_URL = "https://notes-manager-rqbg.vercel.app/api/notes";
+const API_URL = "https://notes-manager-jwg7-aey960niy-japneets-projects-0990ce35.vercel.app/api/notes";
 
 export default function NoteManager() {
   const [notes, setNotes] = useState([]);
